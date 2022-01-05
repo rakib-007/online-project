@@ -7,16 +7,32 @@ body{
 p{
     font-weight: 25px;
 }
-button{
+.button{
     color: white;
-    background-color: rgb(177, 177, 138);
-   padding: 5px 10px;
+    background-image: linear-gradient(45deg,green,red,green);
+   padding:10px 30px;
    border-radius: 5px;
+   border: none;
+   cursor: pointer;
 }
 button:hover{
     color: black;
     background-color: tomato;
 }
+.details{
+    color:white;
+    background-image: linear-gradient(45deg,gray ,cyan);
+   padding:10px 30px;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+
+}
+.details:hover{
+    color: black;
+    background-color: #fff;
+}
+
 
 .heading{
     color: green;
@@ -24,7 +40,6 @@ button:hover{
 }
 .parent{
     display: flex;
-    
     margin-left:35px ;
     margin-right: 80px;
     
@@ -35,9 +50,39 @@ button:hover{
 .right-side{
     width: 300px;
     margin-right: 150px;   
+   
 }
 
 .heading-2{
     text-align: center;
     margin-top: 50px;
+}
+.parent-2{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 15px;
+   
+}
+.dhaka{
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 4px 4px 12px gray;
+    padding: 10px;
+    
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.dhaka img{
+    width: 100%;}
+    
+
+footer{
+    text-align: center;
+
 }
